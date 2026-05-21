@@ -10,3 +10,4 @@ public Account(requestedName){
   
   return practiceOne;
 }
+//i aint doing part b (YET)  dw ill get to it
