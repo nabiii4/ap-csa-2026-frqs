@@ -1,7 +1,12 @@
 public Account(requestedName){
   if(isAvailable == true){
     username = requestedName;
+  }else{
+  practiceOne = username;
+  for(int i=0; practiceOne.isAvailable() == false; i++){
+    practiceOne = username;
+    practiceOne += i;
   }
-  else{
-  for(int i=0; requestedName.isAvailable == false; i++){
-    // will work on trusttt
+  
+  return practiceOne;
+}
